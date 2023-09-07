@@ -9,10 +9,10 @@ import ibookImage from "./iBook.jpg";
 class CounterList extends Component {
   state = {
     itemlist: [
-      { id: 1, value: 0, itemname: "iPhone", price: 150, image: iphoneImage },
-      { id: 2, value: 0, itemname: "iPad", price: 200, image: ipadImage },
-      { id: 3, value: 0, itemname: "iMac", price: 300, image: imacImage },
-      { id: 4, value: 0, itemname: "iBook", price: 500, image: ibookImage },
+      { id: 1, value: 0, itemname: "iPhone", price: 49000, image: iphoneImage },
+      { id: 2, value: 0, itemname: "iPad", price: 18900, image: ipadImage },
+      { id: 3, value: 0, itemname: "iMac", price: 40900, image: imacImage },
+      { id: 4, value: 0, itemname: "iBook", price: 49000, image: ibookImage },
     ],
     total: 0, // เพิ่ม state total เพื่อเก็บราคารวม
   };
